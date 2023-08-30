@@ -49,7 +49,7 @@ chmod +x *.sh
 ```
 
 ## postinstall
-if you want your script in your path terminal, add main.py and data.py in /bin directory
+> if you want your script in your path terminal, add main.py and data.py in /bin directory
 to do this:
 ```fish
 cd ~/control_center
@@ -57,10 +57,13 @@ sudo cp *.py /bin/
 ```
 
 ## necessary tweak
-in main.py there is:
-- data_obj = Data(["docker0", "virbr0", "wlp10s0"])
+> in main.py there is:
+ 
+```python
+data_obj = Data(["docker0", "virbr0", "wlp10s0"])
+```
 
-it my network interface, you need to change to the name of YOUR network interface, to get the name of interface
+> it my network interface, you need to change to the name of YOUR network interface, to get the name of interface
 ```fish
 ip link
 ```
