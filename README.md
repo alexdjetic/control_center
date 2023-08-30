@@ -38,7 +38,7 @@ apk add python
 - go to the official page: [python install for gentoo](https://wiki.gentoo.org/wiki/Python)
 
 ## launch
-> make sure that your terminal is support by ncurses
+> make sure that your terminal is support by ncurses, xterm is supported that why i use it
 to launch, note that `sudo` is only required for docker, if you use it
 if your not using, delete every sudo from script in `data.py`
 
