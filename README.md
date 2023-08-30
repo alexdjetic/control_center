@@ -68,4 +68,14 @@ data_obj = Data(["docker0", "virbr0", "wlp10s0"])
 ip link
 ```
 
+"" what it look like actually
+> here on this pre-alpha a simple IP adress printer
+```
+-----------------------------
+Enable/Disable Interfaces:                                                                                                                                                                                      
+                                                                                                                                                                                                                
+[docker0] Enabled 172.17.0.1                                                                                                                                                                                    
+[virbr0] Enabled 192.168.122.1                                                                                                                                                                                  
+[wlp10s0] Enabled 192.168.1.96    
+```
 have a nive day :)
