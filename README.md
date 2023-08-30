@@ -56,4 +56,13 @@ cd ~/control_center
 sudo cp *.py /bin/
 ```
 
+## necessary tweak
+in main.py there is:
+- data_obj = Data(["docker0", "virbr0", "wlp10s0"])
+
+it my network interface, you need to change to the name of YOUR network interface, to get the name of interface
+```fish
+ip link
+```
+
 have a nive day :)
