@@ -39,8 +39,8 @@ apk add python
 
 ## launch
 > make sure that your terminal is support by ncurses, xterm is supported that why i use it
-to launch, note that `sudo` is only required for docker, if you use it
-if your not using, delete every sudo from script in `data.py`
+to launch, note that `sudo` is only required for docker, if you use it.
+> if your not using, delete every sudo from script in `data.py` and comment using `#self.check_requirement()`
 
 - to launch:
 ```fish
